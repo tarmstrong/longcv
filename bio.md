@@ -91,8 +91,11 @@ While he didn't offer me steady work (he billed by the hour) he offered to let m
 At this gig I:
 
 * Continued to develop my HTML, CSS, and JavaScript skills.
+  * In particular, I had to figure out how to make things look good enough for a client. While I had some very basic web development skills, I had never had to make something for someone else; everything I had built could be built sloppily because it was for my own enjoyment.
 * I wrote basic PHP code -- plugins for the in-house CMS.
 * I got more comfortable deploying PHP sites to servers using graphical ftp clients.
+
+While the person I was working for didn't have much time to help me on a regular basis, he did help me get unstuck a lot. He was an old timey unix nerd from way back when and he taught me about man pages for syscalls.
 
 When I didn't have work to do I messed around with various programmy things:
 
@@ -105,8 +108,17 @@ When I didn't have work to do I messed around with various programmy things:
 
 ## Second-year University (2009-2010)
 
-TODO briefly lay out first year CS curriculum?
+* First semester
+  * Basic Java course following roughly the same curriculum as the C++ course I had taken the year before.
+    * Covered everything from variables to some basic OOP concepts
+* Second semester
+  * Part 2 of the basic Java course, covering more advanced topics like inheritance, polymorphism, interfaces, etc.
 
+TODO I can't remember which CS theory courses I took at the time. Look these up.
+
+In my spare time I learned:
+
+* Django and used it to build some toy apps for myself
 
 ## CUSEC (2010)
 
@@ -121,19 +133,88 @@ In January 2010, I attended the 2010 edition of the Canadian University Software
 
 This conference was very formative. I learned so much about programming -- in particular the culture of programming -- in those few days and it was the first time I felt really, really excited about my career as a software engineer.
 
+## Failed adventures in consulting
+
+To buy food I wanted to make some money on the side by programming. I had read a bit about entrepreneurship on the internet. I found a customer on craigslist and took way too long to produce a lot of really crappy code. In the end my hourly rate probably amounted to $1/hour.
+
+TODO write out more about this project
+
 ## Second summer of coding for money (JavaScript: The Bad Parts) (Summer 2010)
+
+This summer I struggled to find part-time work in my hometown and the same person who I worked for the previous summer offered to pay me to build a project management app. This was largely unsupervised and by the end of the summer I had built a pile of unusable spaghetti code. But, it was a prototype.
+
+* I wrote about 15K lines of JavaScript. This was the largest program I had ever worked with and it was the first time I had to really think about architecture. I had no idea what I was doing and didn't know how to learn.
+  * I spent a lot of time learning how to use jQuery
+  * I used jQuery UI and various other plugins
+* The PHP backend that I wrote had some structure going into this, which I pretty swiftly mangled.
+
+This project was not a success. I did get a lot of practise writing and debugging my own code, though, and it was very challenging. One lesson I learned around this time was that if I feel like I'm making no progress it can be useful to take a step back and refactor the code that is hard to work with. This is easier said than done!
 
 ## Third year university
 
+* fall
+  * Data structures and algorithms
+* winter
+  * the software engineering curriculum at Concordia places a big emphasis on project management; that winter we had our first group project that involved building a web app that would build a class schedule for you based on the courses you needed to take and when they were offered.
+    * I convinced my classmates to use Python/Django with MySQL as the data store.
+    * We had to extensively document our design using UML
+    * We used Subversion for version control
+    * I learned that it is hard to install Python and Django on Windows machines (my peers largely used Windows and had never been exposed to Python before)
+    * I learned that it is a bad idea to try to get your classmates to learn Python in the middle of a busy semester
+
+TODO fill in more of 3rd-year curriculum
+
+## CUSEC 2011
+
+In 2011 I went to CUSEC again and saw some talks that influenced me one way or another:
+
+TODO fill this in
+
 ## Co-op interviews
 
-## Evolving Web
+In February 2011 I joined the co-op program at Concordia. Engineers in the bay area will be most familiar with University of Waterloo's co-op program, which does a fantastic job of getting their students out to San Francisco, but many other Canadian universities have similar programs. I'm not sure I would have had much success getting internships at places like Google, but in any case, I only applied to local companies.
+
+I specifically focused on applying to smaller companies that were using technologies I thought were interesting, or doing open source work. In the end I got three interviews:
+
+* One was at a company based in Laval that did C# development (I think?). I didn't pass this interview, which largely talked about my experience and interests.
+* One was at a small startup called [Nimonik](http://nimonik.com/). They made me an offer after a phone screen with their developer.
+* One was at a small Drupal (PHP) consulting firm called [Evolving Web](https://evolvingweb.ca/).
+  * If I recall correctly, this interview involved:
+    * a small data structures problem
+    * a "bug squash" where I had to fix a Drupal installation that was failing to load. This involved print-statement debugging.
+      * It's worth mentioning that there's essentially no way I would have solved this problem without the help of my interview, who on the spot taught me how to debug a really large, unfamiliar program. Specifically:
+        * Focusing on forming hypotheses, and editing the random library code to add print statements or throw errors
+
+In the end, I chose to go with Evolving Web because the pay was better, and because they offered to pay me more if I took off my Fall semester to work with them. So, not only did it pay better, but I was going to earn even more due to the length of the internship. And my tuition costs were cut in half thanks to being a part time student that semester (I only took 2 night classes that semester). At the time, I wanted to be (mostly) financially independent, so the decision was easy.
+
+## Evolving Web (summer 2011, autumn 2011)
+
+This 8 month period was probably the most educational for me because I got a lot of great mentorship from my colleagues. Alex, the co-founder, spent hours with me teaching me how to debug code, how to do various systems administration tasks, etc. It's hard to understate how important Alex was to my current career as a developer. My current `.bashrc` basically dates from this era.
+
+Specific skills I learned:
+
+* How to write plugins for Drupal
+  * Drupal, at the time, used this funky "hook" architecture where, at various points in the "Core" drupal code, you could insert your own code to modify data structures that were passed around. These data structures were just nested PHP `array`s (for those of you who don't know PHP, `array` is a list _and_ a hash table) that controlled everything from routing to page structure to rendering.
+  * A lot of what I learned here was how to poke at the "core" Drupal code to figure out how it was working. Judicious use of print statements, pretty-printing, and staring at the code got me pretty far. (Again, I want to stress that Alex taught me these skills. I did not come by them naturally.)
+  * It was considered anathema to "patch core", i.e., to maintain your own fork of the vendored code you used to build a Drupal site. This meant you had to jump through a lot of hoops to do it the "right" way with a hook, sometimes by submitting a patch to the open source module you were using.
+  * To that point, I learned how to submit patches to open source Drupal modules. Drupal had its own change revision system.
+* How to use Chef to configure servers
+* How to use Ruby to write plugins for Redmine (the open source ticketing tool that we abused extensively)
+  * This used a lot of the skills I learned from writing Drupal modules, but with a different plugin model.
+
+Evolving Web was very active in the Drupal conference circuit and encouraged me to participate in them and give talks. With the mentorship of the team I gave some talks at a few conferences, largely about Drupal's [new Field API](https://github.com/tarmstrong/poutine_maker/blob/master/poutine_maker.module). I also participated in some open source sprints, though I found it difficult to make much progress on a lot of the bugs I tried to fix. That said, there are [3 commits](http://cgit.drupalcode.org/drupal/log/?qt=grep&q=tarmstrong) in core that I contributed to in some small part (whether that was a partial patch that was thrown away, or some minor testing). I found the Drupal community to be really supportive and welcoming.
 
 ## 3.5th year university
 
 ## Evolving Web part 2
 
+I came back to Evolving Web for a summer.
+
 ## 4th year uni
+
+## The Performance of Open Source Applications
+
+I edited [a book](http://aosabook.org/en/index.html) while in school. It took a lot of time and pretending.
 
 ## that NSERC undergrad research thing I did
 
@@ -142,5 +223,9 @@ This conference was very formative. I learned so much about programming -- in pa
 todo
 
 [nbdiff](https://github.com/tarmstrong/nbdiff)
+
+## Interviewing for full-time jobs
+
+## Getting the job and moving to San Francisco
 
 TODO. This document is a work in progress.
