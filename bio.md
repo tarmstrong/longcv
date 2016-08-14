@@ -4,6 +4,10 @@ I'm curious about what skills people need to know before they get jobs as progra
 
 This document is an attempt for me to recall all the programming skills I learned and how I learned them. I do not want to suggest that these are all skills that you need to learn before getting a job at a fancy pants bay area tech startup. Nor would I suggest that they are sufficient, or that bay area tech startups are good at evaluating engineers, or any of that. I don't think I'm all that good or useful as a programmer, honestly. But I'm curious to find what I'll learn when I write out this history in excruciating detail.
 
+You'll notice that I had a very privileged upbringing. I was exposed to computers at a young age and had access to the internet. I had a lot of financial support from my parents that allowed me to spend time learning how to program instead of making enough money to cover tuition (until I got internships that paid well enough to do so). I also had great mentors who helped accelerate mylearning.
+
+I want to explicitly point out my privilege, not because I think it's required, but because it's part of why I want to develop more efficient ways of learning this material. People with less privilege or who are learning these things as adults who don't have time to waste should still be able to learn computing skills because it's fun, rewarding, and a great career.
+
 A lot of this history, especially the early stuff, might be incorrect. If you happen to have known me at any of these points in my career and know that I'm wrong about something, please correct me.
 
 ## Baby Tavish (1990--1998)
