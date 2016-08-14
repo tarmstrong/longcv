@@ -6,6 +6,10 @@ This document is an attempt for me to recall all the programming skills I learne
 
 A lot of this history, especially the early stuff, might be incorrect. If you happen to have known me at any of these points in my career and know that I'm wrong about something, please correct me.
 
+## Baby Tavish (1990--1998)
+
+I was born in 1990. My earliest memories related to computers involve my mum typing `w` at a DOS prompt, which was, if I recall correctly, the way that you started Windows at the time. My mum also liked to play Doom, but I wasn't allowed to watch. (I include this anecdote to make my age more apparent in the next sections, and to explain why I thought learning how to use a terminal would be cool when I was older.)
+
 ## The early days (1998--2003)
 
 * In 1998 or thereabouts (grade 4?), I discovered [Netscape Composer][composer], a WYSIWYG editor for web pages. My sister and I made goofy websites about figure skating.
