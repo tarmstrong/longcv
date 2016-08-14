@@ -44,6 +44,10 @@ I made a feeble attempt at learning C++ during the fansite years, encouraged by 
   * The details are fuzzy, but I recall a visual tool for designing UIs. The general concepts were similar to Javascript in that you would write event handlers that were triggered by the UI.
 * In 2006 I had a similar class that continued to teach Visual Basic 6. I was bored and spent a lot of time helping my classmates. When I finished the requirements of the final project, I wrote a simple Snake-like game where your avatar was a picture of Tony Jaa (with his legs on fire).
 * Near the end of high school I used money I had earned from teaching figure skating to buy myself a laptop in preparation for university. I can't remember exactly when this happened, but I believe I installed Ubuntu on my laptop before I left for university. Somehow I managed not to trash the thing, but you can be assured that wireless did not work.
+  * From trawling the Ubuntu forums for instructions on how to get wireless working on my laptop I was exposed to some basic command-line skills.
+    * File navigation and management: `cd`, `mkdir`, `wget`, `curl`, `cp`, `mv`
+    * I did not learn how to use these, but I was exposed to advanced commands like `ifconfig`, `modprobe`, `rmmod` `insmod`. I still don't really know how to use any of these but now I sort of know what they do.
+    * I would have used `gedit` for editing files, not a command-line editor.
 
 ## First Year University (2008--2009)
 
@@ -74,7 +78,7 @@ With that background out of the way:
 [diveinto]: http://www.diveintopython.net/
 
 
-## First Programming Job, Sort of (Summer 2009)
+## First Programming Job, Sort of, and my first `rm -rf /` (Summer 2009)
 
 
 
