@@ -49,7 +49,7 @@ Many people know that I graduated from Concordia University with a B. Eng. in so
 
 During that first semester I was also taking an elective -- a C++ course offered by the computer science department for non-CS majors. This class was taught by [Prof. Nancy Acemian][nancy], who later won an award in the department for teaching excellence. Thanks to that excellent class, I realized that programming was a lot of fun and more likely to result in a job. So I switched into the Software engineering program.
 
-[nancy](https://www.concordia.ca/encs/eng-society/faculty.html?fpid=nancy-acemian)
+[nancy]: https://www.concordia.ca/encs/eng-society/faculty.html?fpid=nancy-acemian
 
 Around this time I also discovered writers like Cory Doctorow and through him the open source community. Richard Stallman came to my university and gave a talk with a floppy disk on his head. I started reading Reddit's /r/programming and Hacker News regularly. I was hooked!
 
