@@ -29,12 +29,10 @@ Throughout this period I relied on various free hosting providers because I was 
 
 I made a feeble attempt at learning C++ during the fansite years, encouraged by someone in the Wheel of Time community who gave me some pointers (over MSN) on how to learn to program. He gave me a few programming challenges, which I really enjoyed. But eventually I got frustrated by not knowing how to use abstractions like functions and modules. I didn't know how to learn this stuff and eventually got bored and distracted by other pursuits.
 
-[wired](http://www.wired.com/2010/02/javascript_tutorial/)
-[composer](https://en.wikipedia.org/wiki/Netscape_Composer)
-[webmonkey](https://en.wikipedia.org/wiki/Webmonkey)
-
-[thau-authentic](http://currell.ca/js/hotwiredlycoscom/webmonkey/programming/javascript/tutorials/tutorial1.html)
-
+[wired]: http://www.wired.com/2010/02/javascript_tutorial/
+[composer]: https://en.wikipedia.org/wiki/Netscape_Composer
+[webmonkey]: https://en.wikipedia.org/wiki/Webmonkey
+[thau-authentic]: http://currell.ca/js/hotwiredlycoscom/webmonkey/programming/javascript/tutorials/tutorial1.html
 
 ## High school (2004--2008)
 
@@ -69,7 +67,7 @@ With that background out of the way:
   * Perhaps more importantly than that, it taught me how to access documentation, how to find libraries that would help me build what I wanted, etc.
   * It also taught me about unit testing, although it took me several years before I found tests more useful than painful.
 
-[diveinto](http://www.diveintopython.net/)
+[diveinto]: http://www.diveintopython.net/
 
 
 ## First Programming Job, Sort of (Summer 2009)
