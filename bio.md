@@ -84,7 +84,63 @@ With that background out of the way:
 
 ## First Programming Job, Sort of, and my first `rm -rf /` (Summer 2009)
 
+My childhood babysitter who grew up across the street from my parents' house ran a web development consultancy in my hometown. When I was looking for a summer job my parents mentioned to him that I was learning to program and would he please hire me as an intern? When he was a child, my mother once deployed first aid on him after he was wounded in a playground accident so he obliged.
+
+While he didn't offer me steady work (he billed by the hour) he offered to let me hang out in his office and do odd web development jobs that he didn't have time to do himself. He gave me fixed-price quotes. This was mutually beneficial -- I didn't desperately need a steady paycheque and he didn't desperately need me to complete my tasks quickly.
+
+At this gig I:
+
+* Continued to develop my HTML, CSS, and JavaScript skills.
+* I wrote basic PHP code -- plugins for the in-house CMS.
+* I got more comfortable deploying PHP sites to servers using graphical ftp clients.
+
+When I didn't have work to do I messed around with various programmy things:
+
+* I tried in vain to install the audio synthesis programming environment [supercollider](http://supercollider.github.io/) which, at the time, involved chroots and other dark magic that I didn't understand as I copy-pasted it from the internet. This experience actually taught me some valuable lessons in systems administration:
+  * I learned what [symlinks](https://en.wikipedia.org/wiki/Symbolic_link) were.
+  * I learned why `sudo rm -rf`, run on a hard-link that eventually links to your root directory, will delete your entire filesystem.
+  * I learned what happens when your filesystem is deleted while your operating system is running.
+  * I learned that taking regular backups is a good idea when you regularly do stupid things to your computer without understanding them.
 
 
+## Second-year University (2009-2010)
+
+TODO briefly lay out first year CS curriculum?
+
+
+## CUSEC (2010)
+
+In January 2010, I attended the 2010 edition of the Canadian University Software Engineering Conference. Some talks I remember:
+
+* Leigh Honeywell talked about computer security -- basic concepts, where to learn it (e.g., OWASP). This talk inspired me to learn more about computer security. I haven't really succeeded, but I vaguely remember reading some helpful OWASP tutorials afterward that were really helpful.
+* Thomas Ptacek also gave a talk about security. The details of this one are even fuzzier, but I seem to recall him making an audience member do a [Diffie-Hellman handshake](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange) with him.
+* Reginald Braithwaite gave a talk that I don't remember well but, I think, inspired me to think about programming differently than I had before.
+* [Greg Wilson spoke about software engineering research](https://vimeo.com/9270320) and how the industry ignores a lot of what academic software engineering researchers publish. This was my favourite talk of the conference. More on Greg later.
+* Douglas Crockford spoke about... programming. I don't remember a single thing about this talk but it did inspire me, for better or worse, to buy and read _JavaScript: The Good Parts_. This book taught me a lot of programming concepts:
+  * TODO explain what I learned from this book
+
+This conference was very formative. I learned so much about programming -- in particular the culture of programming -- in those few days and it was the first time I felt really, really excited about my career as a software engineer.
+
+## Second summer of coding for money (JavaScript: The Bad Parts) (Summer 2010)
+
+## Third year university
+
+## Co-op interviews
+
+## Evolving Web
+
+## 3.5th year university
+
+## Evolving Web part 2
+
+## 4th year uni
+
+## that NSERC undergrad research thing I did
+
+## final year capstone project
+
+todo
+
+[nbdiff](https://github.com/tarmstrong/nbdiff)
 
 TODO. This document is a work in progress.
