@@ -214,7 +214,7 @@ I came back to Evolving Web for a summer.
 
 ## The Performance of Open Source Applications
 
-I edited [a book](http://aosabook.org/en/index.html) while in school. It took a lot of time and pretending.
+I edited [a book](http://aosabook.org/en/index.html) while in school. It took a lot of time and pretending and help from friends.
 
 ## that NSERC undergrad research thing I did
 
