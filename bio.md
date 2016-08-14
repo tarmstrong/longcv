@@ -105,7 +105,6 @@ When I didn't have work to do I messed around with various programmy things:
   * I learned what happens when your filesystem is deleted while your operating system is running.
   * I learned that taking regular backups is a good idea when you regularly do stupid things to your computer without understanding them.
 
-
 ## Second-year University (2009-2010)
 
 * First semester
@@ -204,11 +203,16 @@ Specific skills I learned:
 
 Evolving Web was very active in the Drupal conference circuit and encouraged me to participate in them and give talks. With the mentorship of the team I gave some talks at a few conferences, largely about Drupal's [new Field API](https://github.com/tarmstrong/poutine_maker/blob/master/poutine_maker.module). I also participated in some open source sprints, though I found it difficult to make much progress on a lot of the bugs I tried to fix. That said, there are [3 commits](http://cgit.drupalcode.org/drupal/log/?qt=grep&q=tarmstrong) in core that I contributed to in some small part (whether that was a partial patch that was thrown away, or some minor testing). I found the Drupal community to be really supportive and welcoming.
 
+I owe a lot to Alex, Suzanne, Jon, Thomas, and [Logan](https://twitter.com/loganfsmyth) who taught me a lot during this time.
+
 ## 3.5th year university
 
 ## Evolving Web part 2
 
-I came back to Evolving Web for a summer.
+This summer involved a lot of similar work to the previous summer.
+
+* We did some English/French localization work. I learned about tagging UI strings and other such things.
+* I worked with [Julia Evans](http://jvns.ca/), who taught me a lot and continues to teach me a lot about programming. And being a good person.
 
 ## 4th year uni
 
