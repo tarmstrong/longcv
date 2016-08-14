@@ -71,3 +71,8 @@ With that background out of the way:
 
 
 ## First Programming Job, Sort of (Summer 2009)
+
+
+
+
+TODO. This document is a work in progress.
