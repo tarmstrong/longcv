@@ -1,3 +1,7 @@
 # longcv
 
-Honest CVs from programmers.
+This repository collects Honest CVs from programmers. I want to learn more about how people learn what they learn and examine the sometimes serendipitous or roundabout ways that people come by their skills.
+
+* [tavish's overly honest cv](http://jvns.ca/blog/2015/02/17/how-i-learned-to-program-in-10-years/)
+* [Julia Evans's blog post about her path](http://jvns.ca/blog/2015/02/17/how-i-learned-to-program-in-10-years/)
+* [Will Bradley's overly honest CV](https://github.com/tarmstrong/longcv/blob/master/zyphlar-bio.md)
