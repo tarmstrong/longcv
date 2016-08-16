@@ -75,7 +75,7 @@ With that background out of the way:
   * I didn't have that much code to write, so I mostly used git for tracking fiction that I was writing at the time.
 * The internet told me that CS students who learned Java were useless and CS students who learned Python got jobs, so I learned Python.
   * The python tutorial I read was [Dive Into Python][diveinto]
-  * This taught me a lot of fundamental programming concepts, like control strucutres, Object-oriented programming (though I didn't understand why OOP was useful).
+  * This taught me a lot of fundamental programming concepts, like control structures, Object-oriented programming (though I didn't understand why OOP was useful).
   * Perhaps more importantly than that, it taught me how to access documentation, how to find libraries that would help me build what I wanted, etc.
   * It also taught me about unit testing, although it took me several years before I found tests more useful than painful.
 
@@ -233,3 +233,7 @@ todo
 ## Getting the job and moving to San Francisco
 
 TODO. This document is a work in progress.
+
+## Fame (2016)
+
+Made it to the front page of HN
