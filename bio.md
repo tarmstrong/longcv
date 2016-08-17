@@ -75,7 +75,7 @@ With that background out of the way:
   * I didn't have that much code to write, so I mostly used git for tracking fiction that I was writing at the time.
 * The internet told me that CS students who learned Java were useless and CS students who learned Python got jobs, so I learned Python.
   * The python tutorial I read was [Dive Into Python][diveinto]
-  * This taught me a lot of fundamental programming concepts, like control strucutres, Object-oriented programming (though I didn't understand why OOP was useful).
+  * This taught me a lot of fundamental programming concepts, like control structures, Object-oriented programming (though I didn't understand why OOP was useful).
   * Perhaps more importantly than that, it taught me how to access documentation, how to find libraries that would help me build what I wanted, etc.
   * It also taught me about unit testing, although it took me several years before I found tests more useful than painful.
 
@@ -214,13 +214,55 @@ This summer involved a lot of similar work to the previous summer.
 * We did some English/French localization work. I learned about tagging UI strings and other such things.
 * I worked with [Julia Evans](http://jvns.ca/), who taught me a lot and continues to teach me a lot about programming. And being a good person.
 
+TODO flesh this section out more
+
 ## 4th year uni
 
 ## The Performance of Open Source Applications
 
-I edited [a book](http://aosabook.org/en/index.html) while in school. It took a lot of time and pretending and help from friends.
+I don't remember when I discovered _The Architecture of Open Source Applications_ (eds. Amy Brown and Greg Wilson). When I learned that they were working on a second volume and needed help, I emailed Greg (who I knew from the previously mentioned CUSEC 2010 talk). Greg and Amy are both very good at wrangling volunteers and let me proofread some chapters. It was fun!
 
-## that NSERC undergrad research thing I did
+After they published the second volume of AOSA, Greg wanted to publish a third volume that focused on performance. Unfortunately, it was too much for him to take on personally at the time. So, he started looking for a victim. I was one of those victims. Originally I started working on the book with Tony Arkles, but he sadly had to drop out because of other commitments. That said, editing a book is an exercise in organizing people, and the amount of people who pitched in to help was staggering.
+
+I've never really written out what it takes to edit a book like that. Roughly speaking:
+
+* You email a bunch of people and ask them if they would pretty please write a chapter for your book. (Lots of email.)
+* If they agree, ask them for a plot summary (so you can help make sure they're on topic before they waste a ton of time)
+* Ask for a first draft; provide feedback on that draft (usually high-level concerns like "does this fit the theme?" or "would this be interesting to anyone?")
+* Wait for feedback on that draft. Provide feedback on the second draft and send it for technical review.
+* Get technical reviewers to take a pass at the chapters and look for technical problems, factual errors, etc.
+* At this point, you apply more structural edits, and get all the chapters into a common format so that your army of copyeditors can work with consistent text.
+* Deploy your copyeditors! Build a style guide for people to apply consistently. (Do you capitalize "Web"? What kind of words are typset as code? Which are capitalized? Do you use sentence case or title case for second-level headers?)
+* Typeset!
+
+The end result was [The Performance of Open Source Applications](http://aosabook.com/en/index.html). What did I learn from this experience?
+
+Thankfully, you'll notice that the hardest part is done by the authors (actually writing the damn thing). For me, there were a few challenging aspects of this project. First, it took about a year, which was, at the time, the longest running project of any kind I had ever worked on. Second, I had to give feedback on technical writing in domains that I knew very little about to people that were way more experienced than me. This was intimidating, but thankfully got a lot easier once I learned how wonderful all the authors I was working with were.
+
+## Summer 2013
+
+I spent the summer of 2013 working with Prof. Peter Rigby at Concordia University, researching code review on open source projects. I spent a lot of time mining data from open source change trackers like Gerrit and Rietveld, and bug databases like Google Code. I was particularly interested in linking bugs in the bug database to bug _fixes_ in the code review tools, and using git history to look at the code review history of the files that were (supposedly) therefore deemed buggy. With this sort of research project it helps to be very focused; I tended to go down rabbit holes and was ultimately not very successful as a researcher.
+
+I did learn quite a bit from this experience, though:
+
+* I wrote a very large amount of code for scraping Web APIs and dumping those into PostgreSQL databases. 
+  * Technologies:
+    * Python, BeautifulSoup, SQLAlchemy
+  * I learned a lot about how to write long-running jobs that deal with interruptions and errors gracefully.
+  * These scripts, which ran on my university desktop, would save the result of every HTTP request locally on the filesystem before attempting to insert it into the SQL database. This made it much faster to recover after my program crashed on unexpected input after 100000 requests, and meant that if I wanted to make a change to the processing code I could do so without re-doing all of those HTTP requests.
+  * I learned how to throttle my scrapers to avoid Google's ire.
+* I wrote tools for importing Git history into PostgreSQL databases.
+* I wrote _a lot_ of SQL queries. Specifically I learned about:
+  * `with`, `group by`, sql functions, the `psql` command line tools.
+  * I experimented with but discarded sql stored procedures written in Python.
+* I used R for statistcal analysis and learned about
+  * I learned about different correlation tests (like Pearson and Spearman)
+  * How to understand distributions in a dataset
+    * with violin plots and box plots
+    * q-q plots
+  * time-series analysis tools like [cross-correlation](http://tavisharmstrong.com/2013/07/06/what-i-cannot-create-i-cannot-understand/)
+
+On the side, I was also helping a grad student with their project, which was a code review tool built _in_ Git itself. Essentially, we used git objects to store code reviews (which were formatted in the bottom-posting style of the linux kernel mailing list). TODO flesh out what I learned about Git.
 
 ## final year capstone project
 
