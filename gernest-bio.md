@@ -1,8 +1,8 @@
 # Genesis
-It all started in a small street called kilimahemwa( Translates to a hill with
-prenty of air) not far away from the lake named after Matriarch of the United
+It all started in a small street called kilimahewa( Translates to a hill with
+plenty of air) not far away from the lake named after Matriarch of the United
 Kingdom. The city is Mwanza and the country is Tanzania it used to be rice fields
-all over the place. I dont remember
+all over the place. I don't remember
 much as I was a toddler, I was so black that my folks thought I will be a boxer
 when I grow up.That was  27 years ago.
 
@@ -38,12 +38,12 @@ was busy exploring my laptop. In the process, I never failed my exams and I was
 busy learning different kinds of stuffs. I got hooked up on the web. And learnt
 HTML,CSS, JS and PHP.
 
-PHPP was cool but I never liked it, so I moved to erlang for a cuple of months
+PHP was cool but I never liked it, so I moved to erlang for a couple of months
 only then to fall into python which made me love ruby at first sight. Those were
 the happiest days of my life.
 
 # After college
-After college I want back home and strted the never ending job hunt. My Bcom
+After college I want back home and started the never ending job hunt. My Bcom
 FInance degree  was useless. So I just gave up on jobs and dedicated myself to
 programming.
 
