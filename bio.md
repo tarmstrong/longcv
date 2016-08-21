@@ -266,9 +266,22 @@ On the side, I was also helping a grad student with their project, which was a c
 
 ## final year capstone project
 
-todo
+Concordia's software engineering program requires students to build a "capstone" project in their final year. We had a few rules: we had to have a "customer", the project had to be extensively documented, and you had to form a team of 5 or more. The most time-consuming (if not hardest) part of the project was the documentation -- everything from the process (e.g., agile) we used and why we used it, the architecture (with UML), and particularly silly aspects like billable hours all needed to be bundled in the documentation we submitted to the professor at the end of the year.
 
-[nbdiff](https://github.com/tarmstrong/nbdiff)
+The "customer" had to just be someone who wanted a piece of software built. I turned to Greg Wilson, who is an expert at coming up with work for people. He pitched a few projects. One was a WebRTC-based videoconferencing tool for inverted classrooms. I believe I ruled this out early because it was too technically complex, relied on newer, fast-changing technology, etc. The next suggestion was a diffing and merging tool for the IPython Notebook. I had worked a lot with Python (and with IPython Notebooks) in the past so I thought this was a cool project and much less risky since I understood the relevant technologies much better.
+
+After a year of hard work from the entire team, we released [nbdiff](https://github.com/tarmstrong/nbdiff). Unfortunately, none of us have had much time to maintain the project since we graduated and got full-time jobs, and keeping it up-to-date with the fast-moving IPython project takes a pretty significant amount of time. In retrospect, I think the only way a project like this would be successful is if it was in the core IPython project, such that you had to keep the nbdiff tests passing in order to make your changes to IPython.
+
+Here are some things I learned over the course of this project with my teammates:
+
+* How to navigate a medium-sized Python project to understand what parts of the IPython project's code we could re-use.
+* How to set up travis-ci for a small team
+* How diffing and merging algorithms work, in order to write a module to do structured diffing on hierarchical data.
+  * We looked up the original Hunt and McIllroy paper to figure out how to implement this
+  * (Actually, we didn't look up prior art for merging, we just took the diffs between base/HEAD and base/branch and diffed those, like a second-order diff. I don't know if that's how merging algorithms worked.)
+* Yes, even some skills related to documenting a Python project with UML. There are challenges: the tools for making diagrams are clunky, don't have support for version control, and are hard to keep up to date with your changing project. That said, I think there are some benefits to high-level diagrams of your project's architecture and thought it was an interesting [AOSA](http://aosabook.org/en/index.html)-style exercize in communication.
+* I was the "team-leader" for the project. While the entire team contributed equal amounts of work, I had much more experience with Python and especially with open source practises, so I had a heavier hand when it came to design and code review. This was basically the first experience I had with a typical code review process outside of small interactions with the open source community.
+* I got a lot more practise writing tests.
 
 ## Interviewing for full-time jobs
 
