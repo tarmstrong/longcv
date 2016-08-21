@@ -288,3 +288,7 @@ Here are some things I learned over the course of this project with my teammates
 ## Getting the job and moving to San Francisco
 
 TODO. This document is a work in progress.
+
+## Fame (2016)
+
+Made it to the front page of HN
