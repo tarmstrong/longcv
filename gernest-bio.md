@@ -42,6 +42,18 @@ PHP was cool but I never liked it, so I moved to erlang for a couple of months
 only then to fall into python which made me love ruby at first sight. Those were
 the happiest days of my life.
 
+## how I started to program
+After being introduced to websites in college, curiosity made me wonder how I
+can make my own website.
+
+Most search result on Google  about how to make a website points to
+PHP+MySQl+HTML+CSS combo. I started from there.
+
+Most materials I was reading were from the w3c website. I was  messing around
+with css and html mostly until when they weren't enogh that is when I tried to
+learn PHP. I was a windows user back then so my text editor was nodepad++.
+
+
 # After college
 After college I want back home and started the never ending job hunt. My Bcom
 FInance degree  was useless. So I just gave up on jobs and dedicated myself to
