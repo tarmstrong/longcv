@@ -7,3 +7,4 @@ This repository collects Honest CVs from programmers. I want to learn more about
   * Julia has also shared a repository of her early programs [here](https://github.com/jvns/julias-first-programs)
 * [Will Bradley's overly honest CV](https://github.com/tarmstrong/longcv/blob/master/zyphlar-bio.md)
 * [Geofrey Ernest's honest CV](https://github.com/tarmstrong/longcv/blob/master/gernest-bio.md)
+* [Dan Luu: How I Learned to Program](http://danluu.com/learning-to-program/). (He helpfully provides his own list of similar posts by other authors in the appendix!)
