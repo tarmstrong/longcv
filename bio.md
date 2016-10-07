@@ -136,7 +136,16 @@ This conference was very formative. I learned so much about programming -- in pa
 
 To buy food I wanted to make some money on the side by programming. I had read a bit about entrepreneurship on the internet. I found a customer on craigslist and took way too long to produce a lot of really crappy code. In the end my hourly rate probably amounted to $1/hour.
 
-TODO write out more about this project
+The project itself was a book editing web application that would allow a customer to arrange their photos in a scrapbook-style book and order a printed copy. Needless to say, this is a large task that a broke student should not offer to do for a fixed, extremely lowballed price. Poor business decisions aside, the project itself looked like this:
+
+* I wrote a custom PHP backend that
+  * shelled out to Imagemagick for some basic image processing tasks (rotating, cropping, resizing).
+  * integrated with Paypal for basic payment processing.
+* I wrote a Javascript frontend to enable editing of page layouts. I might have attempted to use HTML5 but back then the browser support was poor.
+
+Overall I was not very successful business-wise (even in absolute revenue, let alone revenue per hour) and not very successful technically. What I delivered was a proof-of-concept, far from what I would consider production-ready today.
+
+This project didn't teach me how to architect software projects but it sure taught me how unpleasant it can be when you don't have any architecture at all. Every single piece of this project was bolted on to other things that were also bolted on. It also turned out to be hard to stitch together a bunch of components that were just slightly within your capabilities in a way that worked well; just because I could do A, B, and C individually doesn't mean I could build something using A, B, and C together.
 
 ## Second summer of coding for money (JavaScript: The Bad Parts) (Summer 2010)
 
@@ -285,6 +294,6 @@ Here are some things I learned over the course of this project with my teammates
 
 ## Interviewing for full-time jobs
 
-## Getting the job and moving to San Francisco
+## Getting a job and moving to San Francisco
 
 TODO. This document is a work in progress.
