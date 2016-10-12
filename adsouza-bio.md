@@ -26,7 +26,7 @@ to explain about defining functions.
 
 After that I took a class in grade 11 where we learned a neat little language called Turing that had a clean syntax but could
 be compiled into a binary executable. Turing is where I really learned about complex branching/selection via nested if
-statememnts.
+statements.
 The next year I learned some basic C and had mild exposure to a few other things (C++, Java, Javascript). By this point I was 
 pretty sold on the notion of programming as a career but didn't yet grasp the concept of memory indirection via pointers.
 
@@ -47,6 +47,6 @@ build an Android app.
 I got another job where I used both C and Python for a few months and then another job where I learned Scala, which I loved.
 Scala is what finally got me to wrap my head around functional programming.
 
-Five years ago I started my current job, where I used mostly C++ with a bit of Python and Java for the first three years and
+Five years ago I started my current job, where I used mostly C++ with a bit of Python and Java for the first two years and
 since then it's been mostly Go with a bit of Javascript to build infrastructure and web front-ends. Go has cured me of the
 need to use inheritence for code reuse.
