@@ -74,6 +74,26 @@ company called Object Technologies International (OTI) that had recently been ac
 I got to implement the FTP and WebDAV support in Eclipse 2.x under the mentorship of a couple of very capable developers,
 learning a lot about architecting extensible systems.
 
+For my fifth internship I returned to Big Blue but this time in the DB2 division, to work on the Unix portability layer.
+After a few weeks of fixing various bugs, I ended up on a skunkworks project to port the stack unwinder - a critical component 
+of the internal debugger - to the nascant x86-64 CPU architecture. The hardware hadn't actually been officially released yet 
+and IBM had certainly not committed to supporting it but my team had somehow obtained a prerelease machine and my manager 
+wanted to get ahead of the game on what he believed would be the next great CPU architecture. At the time Intel had just about 
+everybody convinced that it was going to make Itanium a success by fiat but my manager turned out to be remarkably prescient.
+
+Because all of this was happenning in secret, we didn't actually have a manual of any kind of documentation for the new 
+architecture. In the absence of any guidance, I decided to simply experiment my way to success: I wrote some code that would 
+generate a SIGSEGV and some other code that would catch this and let me print the contents of arbitrary registers and memory 
+contents. Then I spent weeks slowly poking around various registers to see which ones held pointers to interesting areas of 
+memory until I eventually figured out where to look for the stack contents. This ended up being one of the most fun projects I 
+ever worked on.
+
+My sixth and final internship was at Sun Labs on a team that included James Gosling himself. They were building a tool that 
+could perform static analysis and transformations on Java source code. But they needed a way to sanity check their 
+transformations, which is what my task ended up being. I wrote a tool that would examine the Abstract Syntax Tree (AST) after 
+it had been transformed and see if it could spot any inconsistencies. This project taught me a lot about both the more esoteric 
+features of the Java language and the value of an AST for performing operations and verification on source code.
+
 # Industry
 
 After spending my first year on the job using Java, I switched to C++ for the next couple of years and then to C for a year.
