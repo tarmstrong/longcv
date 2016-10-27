@@ -107,6 +107,16 @@ When I didn't have work to do I messed around with various programmy things:
 
 ## Second-year University (2009-2010)
 
+* Fall 2009
+  * COMP 248: obj-oriented programming i
+  * COMP 232: math. for computer science
+  * MATH 205: differential&integral cal ii
+  * PHYS 205: electricity & magnetism
+* Winter 2010
+  * COMP 249: obj-oriented programming ii
+  * SOEN 228: system hardware
+  * SOEN 287: intro. to web applications
+
 * First semester
   * Basic Java course following roughly the same curriculum as the C++ course I had taken the year before.
     * Covered everything from variables to some basic OOP concepts
@@ -172,6 +182,20 @@ This project was not a success. I did get a lot of practise writing and debuggin
 
 TODO fill in more of 3rd-year curriculum
 
+Fall 2010
+* COMP 352: data structures + algorithms
+* ENCS 282: tech. writing + communic n.
+* ENGR 201: profess l. practice+respons.
+* ENGR 213: app.ordinary diff.equations
+* ENGR 233: applied advanced calculus
+ 
+Winter 2011
+* COMP 346: operating systems
+* ELEC 275: principles of elec. engg.
+* ENGR 371: probability+statistics/engr.
+* ENGR 391: numerical methods in engr
+* SOEN 341: software process
+
 ## CUSEC 2011
 
 In 2011 I went to CUSEC again and saw some talks that influenced me one way or another:
@@ -214,7 +238,19 @@ Evolving Web was very active in the Drupal conference circuit and encouraged me 
 
 I owe a lot to Alex, Suzanne, Jon, Thomas, and [Logan](https://twitter.com/loganfsmyth) who taught me a lot during this time.
 
-## 3.5th year university
+## 3rd year university
+
+During my internship (fall 2011)
+
+* COMP 335: intro/theoretical comp sci (formal language theory, CS basics, etc.)
+
+Winter 2012
+
+* COMP 345: advanced program design, c++
+* COMP 445: data comm + comp networks
+* ENGR 301: engr.mgmt.princip.+economics
+* SOEN 385: control systems+applications
+* ENGR 392: impact/technology on society
 
 ## Evolving Web part 2
 
@@ -223,9 +259,24 @@ This summer involved a lot of similar work to the previous summer.
 * We did some English/French localization work. I learned about tagging UI strings and other such things.
 * I worked with [Julia Evans](http://jvns.ca/), who taught me a lot and continues to teach me a lot about programming. And being a good person.
 
-TODO flesh this section out more
-
 ## 4th year uni
+
+Fall 2012
+* SOEN 342: sw requirements + specs.
+* SOEN 343: s.w. architecure & design i
+* SOEN 384: mgmt+quality ctrl./sw dev.
+* SOEN 422: embedded systems/software
+* SOEN 423: distributed systems
+ 
+Winter 2013
+* SOEN 344: s.w. architecure & design ii
+* SOEN 345: s.w. testing, verif & qa
+* SOEN 357: user interface design
+* SOEN 390: software engr. team project
+
+Summer 2013
+* ENGR 301: engr.mgmt.princip.+economics
+* COMP 348: prin./programming languages
 
 ## The Performance of Open Source Applications
 
@@ -273,6 +324,18 @@ I did learn quite a bit from this experience, though:
 
 On the side, I was also helping a grad student with their project, which was a code review tool built _in_ Git itself. Essentially, we used git objects to store code reviews (which were formatted in the bottom-posting style of the linux kernel mailing list). TODO flesh out what I learned about Git.
 
+## Final year of school
+
+Fall 2013
+* COMP 348: prin./programming languages
+* COMP 472: artificial intelligence
+* SOEN 691D: topics/software engineering (grad-level course on topics similar to my summer research work)
+ 
+Winter 2014
+* CLAS 266: intro classical archaeology
+  * leave this in for lols
+* SOEN 331: intro to fml mthds for soen
+
 ## final year capstone project
 
 Concordia's software engineering program requires students to build a "capstone" project in their final year. We had a few rules: we had to have a "customer", the project had to be extensively documented, and you had to form a team of 5 or more. The most time-consuming (if not hardest) part of the project was the documentation -- everything from the process (e.g., agile) we used and why we used it, the architecture (with UML), and particularly silly aspects like billable hours all needed to be bundled in the documentation we submitted to the professor at the end of the year.
@@ -296,4 +359,13 @@ Here are some things I learned over the course of this project with my teammates
 
 ## Getting a job and moving to San Francisco
 
-TODO. This document is a work in progress.
+* ruby
+* operations
+* monitoring
+* working with banks
+* batch processing
+* problems of scale
+* incident response
+* safely making changes to a production system
+* mentorship
+* growing engineering team
