@@ -242,15 +242,30 @@ I owe a lot to Alex, Suzanne, Jon, Thomas, and [Logan](https://twitter.com/logan
 
 During my internship (fall 2011)
 
-* COMP 335: intro/theoretical comp sci (formal language theory, CS basics, etc.)
+* COMP 335: intro/theoretical comp sci
+  * formal language theory
+  * automata, grammars, etc. 
+
+Side note: around this time, I discovered a few talks from the Chaos Communications Congress that changed everything about computers for me. The first was a talk by Travis Goodspeed on [packet-in-packet attacks][travis] that exploit poorly written hardware parsers. The second was [The Science of Insecurity](https://www.youtube.com/watch?v=3kEfedtQVOY) by Meredith L. Patterson, which blew my mind completely. This was in no small part because I had just spent a semester learning about formal language theory. I knew that it was useful for building parsers, but this talk really made something _click_ for me, and made me feel like learning all this CS theory was useful after all. It's one of the technical talks that I think about most often, even as of this writing.
+
+[travis]: https://www.youtube.com/watch?v=euMHlV6MNqs
 
 Winter 2012
 
 * COMP 345: advanced program design, c++
+  * This course was a pretty straightforward class about the C++ language. The professor was one of the more savvy programmers in the department and did a decent job of helping us write decent C++ code.
 * COMP 445: data comm + comp networks
+  * In this class I learned a lot about how networks work:
+    * How the physical layer works (e.g., pulse width modulation)
+    * Major protocols: IP, TCP, UDP, etc.
+    * More detail about TCP:
+      * Sliding windows
 * ENGR 301: engr.mgmt.princip.+economics
 * SOEN 385: control systems+applications
+  * Control theory: laplace transforms, PID controllers, etc.
 * ENGR 392: impact/technology on society
+  * Technology is not politically neutral.
+  * Technology does not develop deterministically and linearly; the social context drives development of technology.
 
 ## Evolving Web part 2
 
@@ -263,9 +278,20 @@ This summer involved a lot of similar work to the previous summer.
 
 Fall 2012
 * SOEN 342: sw requirements + specs.
+  * Lots of formal theory on how to write software requirements. This was basically a class on writing super long contract-esque requirements docs. This is not how my job works.
+  * Some formal specification stuff like the Z language.
 * SOEN 343: s.w. architecure & design i
 * SOEN 384: mgmt+quality ctrl./sw dev.
+  * Dubious ways of measuring the quality of software
+    * test coverage
+    * mccabe complexity (note: this correlates with lines of code so is not actually predictive?!)
+    * etc.
+  * How to measure qualitative aspects of software:
+    * e.g., SLAs on uptime
 * SOEN 422: embedded systems/software
+  * Using low-level operating systems knowledge and some electrical engineering knowledge to build robots and such.
+  * For fun, on the side, I built [interactive documentation](http://tavisharmstrong.com/timer1) for the Teensy's 16bit timer.
+  * Spent a lot of time writing embedded C code to make motors go.
 * SOEN 423: distributed systems
  
 Winter 2013
