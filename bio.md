@@ -109,13 +109,31 @@ When I didn't have work to do I messed around with various programmy things:
 
 * Fall 2009
   * COMP 248: obj-oriented programming i
+    * Intro to Java programming (variables, control structures, basic class definitions)
   * COMP 232: math. for computer science
+    * Boolean logic
+    * Complexity theory
+    * TODO A bunch of stuff I'm forgetting right now
   * MATH 205: differential&integral cal ii
+    * Integrals and such
   * PHYS 205: electricity & magnetism
+    * Electricity: how does it even work?
+    * Magnetism: how does it even work?
+    * Electricity and magnetism: are they even related?? Yes!
 * Winter 2010
   * COMP 249: obj-oriented programming ii
+    * Actual object-oriented programming concepts like
+      * visibility (private/protected/public)
+      * encapsulation
+      * method overriding
+      * inheritance
+      * java interfaces
+      * polymorphism
   * SOEN 228: system hardware
+    * How operating systems work: system interrupts, assembly programming, etc.
+    * The class project for this was fantastic! We built a 4-bit computer "from scratch" using integrated chips, breadboards, etc. We had to build our own timing circuit and program counter; we had to program the RAM using tiny physical switches; we implemented registers and INC/MOVA/MOVB instructions with physical wires! This was so much fun and I finally felt like I understood how computers worked.
   * SOEN 287: intro. to web applications
+    * HTML, JavaScript, CSS, CGI/Perl
 
 * First semester
   * Basic Java course following roughly the same curriculum as the C++ course I had taken the year before.
@@ -180,21 +198,45 @@ This project was not a success. I did get a lot of practise writing and debuggin
     * I learned that it is hard to install Python and Django on Windows machines (my peers largely used Windows and had never been exposed to Python before)
     * I learned that it is a bad idea to try to get your classmates to learn Python in the middle of a busy semester
 
-TODO fill in more of 3rd-year curriculum
-
 Fall 2010
 * COMP 352: data structures + algorithms
+  * Linked lists, hashtables, binary trees, heaps, etc.
+  * Complexity analysis (big-O and such)
 * ENCS 282: tech. writing + communic n.
+  * THIS WAS THE BEST CLASS
+  * Rhetoric
+  * Techniques for technical writing
+  * Persuasion
 * ENGR 201: profess l. practice+respons.
+  * Engineering ethics
+  * Whistleblowing
+  * Keeping records and stuff.
 * ENGR 213: app.ordinary diff.equations
+  * Differential equations.
 * ENGR 233: applied advanced calculus
+  * I have no idea what we learned in this class TODO
  
 Winter 2011
 * COMP 346: operating systems
-* ELEC 275: principles of elec. engg.
-* ENGR 371: probability+statistics/engr.
+  * Concurrency control
+  * Philosophers??!?!
+  * Schedulers
+  * TODO more...
+* ELEC 275: principles of electrical engineering
+  * I was really bad at this.
+* ENGR 371: probability+statistics for engineers
+  * Probably the most useful math class I took
+  * Statistical tests (e.g., t-tests, standard deviations, etc. etc. etc.)
 * ENGR 391: numerical methods in engr
+  * Linear regression
+  * TODO fill this out more
+  * The project was written in Matlab; I used Octave
 * SOEN 341: software process
+  * Introduction to software engineering.
+  * Talked about a lot of famous case studies like THERAC-25
+  * Talked about the history of the discipline: the Software Crisis, the CHAOS report, etc. etc.
+  * Learned basic UML documentation techniques.
+  * Built a web app to help build class schedules for the class project, as a team of 3-5.
 
 ## CUSEC 2011
 
@@ -254,13 +296,14 @@ Winter 2012
 
 * COMP 345: advanced program design, c++
   * This course was a pretty straightforward class about the C++ language. The professor was one of the more savvy programmers in the department and did a decent job of helping us write decent C++ code.
+  * One of the programming assignments was building a search index from scratch.
+    * Specifically, we used TF-IDF to implement this.
 * COMP 445: data comm + comp networks
   * In this class I learned a lot about how networks work:
     * How the physical layer works (e.g., pulse width modulation)
     * Major protocols: IP, TCP, UDP, etc.
     * More detail about TCP:
       * Sliding windows
-* ENGR 301: engr.mgmt.princip.+economics
 * SOEN 385: control systems+applications
   * Control theory: laplace transforms, PID controllers, etc.
 * ENGR 392: impact/technology on society
@@ -281,6 +324,9 @@ Fall 2012
   * Lots of formal theory on how to write software requirements. This was basically a class on writing super long contract-esque requirements docs. This is not how my job works.
   * Some formal specification stuff like the Z language.
 * SOEN 343: s.w. architecure & design i
+  * This project focused a lot on open source software development techniques because that's what the professor was interested in researching.
+  * This was where I learned about Conway's Law, which fascinates me constantly.
+  * The final project involved [proposing a refactoring change to an open source project](http://tavisharmstrong.com/2012/11/29/phergie-refactoring-idea/)
 * SOEN 384: mgmt+quality ctrl./sw dev.
   * Dubious ways of measuring the quality of software
     * test coverage
@@ -293,16 +339,26 @@ Fall 2012
   * For fun, on the side, I built [interactive documentation](http://tavisharmstrong.com/timer1) for the Teensy's 16bit timer.
   * Spent a lot of time writing embedded C code to make motors go.
 * SOEN 423: distributed systems
+  * Concurrency control (locking, etc.)
+  * Distributed clock systems (e.g., Lamport clocks)
+  * Consensus algorithms
+  * RPC technologies (CORBA, WSDL, etc.)
  
 Winter 2013
 * SOEN 344: s.w. architecure & design ii
+  * Old-school Gang of Four architectural concepts.
+  * Refactoring strategies.
+  * More UML documentation techniques.
 * SOEN 345: s.w. testing, verif & qa
+  * Unit testing, integration testing, load testing, etc.
 * SOEN 357: user interface design
 * SOEN 390: software engr. team project
+  * We formed groups of 8-10 and ran a software project to replace a food bank's computer system.
+  * We used the (somewhat overwrought) software development process that had been taught to us: we wrote long requirements documents after meeting with the "customer"; we documented our design thoroughly with UML before beginning implementation; we wrote our code; we documented our testing process and used measurement techniques (like McCabe Cyclometic Complexity, dubiously); we got approval from the "customer" at the end; documented maintenance plans.
 
 Summer 2013
 * ENGR 301: engr.mgmt.princip.+economics
-* COMP 348: prin./programming languages
+  * Basic engineering management. This was a course meant for all engineering disciplines at Concordia. The techniques discussed in this class bear no resemblance to how planning at tech companies happens; it seemed to be more suitable to budgeting and planning at a civil engineering firm with clear, predictable projects.
 
 ## The Performance of Open Source Applications
 
@@ -354,13 +410,25 @@ On the side, I was also helping a grad student with their project, which was a c
 
 Fall 2013
 * COMP 348: prin./programming languages
+  * Learned about many categories of programming languages: imperative, object-oriented, functional, declarative, logic.
+  * Wrote toy programs in Prolog, Ruby, C, Scheme.
 * COMP 472: artificial intelligence
+  * Learned about the history of AI.
 * SOEN 691D: topics/software engineering (grad-level course on topics similar to my summer research work)
  
 Winter 2014
 * CLAS 266: intro classical archaeology
-  * leave this in for lols
+  * Greek archaeology from 30000 BC to roughly 400 BC.
+  * Learned how we discover things about ancient civilizations: what is durable enough to survive, what is not; how we can date artifacts and discover how they were used; etc.
+  * Learned how to interpret things about the history of these places based on archaeological remains.
+  * Learned lots about painted ceramics, related technologies.
+  * Learned lots about bronze and marble statuary
+    * Many statues we have are actually marble ripoffs of bronze statues, copied by the unoriginal Romans!
+  * This class actually taught me a lot about software development! We often deal with many layers of software that has been created over the years. A lot of it has been lost, and we can only see the most durable software. Isn't that fascinating?!?!?!?!?!?!?!?!
 * SOEN 331: intro to fml mthds for soen
+  * Design by contract
+  * Z specification language
+  * Aspect-oriented programming (see [pyadbc](https://github.com/tarmstrong/pyadbc).
 
 ## final year capstone project
 
@@ -380,6 +448,8 @@ Here are some things I learned over the course of this project with my teammates
 * Yes, even some skills related to documenting a Python project with UML. There are challenges: the tools for making diagrams are clunky, don't have support for version control, and are hard to keep up to date with your changing project. That said, I think there are some benefits to high-level diagrams of your project's architecture and thought it was an interesting [AOSA](http://aosabook.org/en/index.html)-style exercize in communication.
 * I was the "team-leader" for the project. While the entire team contributed equal amounts of work, I had much more experience with Python and especially with open source practises, so I had a heavier hand when it came to design and code review. This was basically the first experience I had with a typical code review process outside of small interactions with the open source community.
 * I got a lot more practise writing tests.
+
+There is now a successor to this project called [nbdime](http://nbdime.readthedocs.io/en/latest/).
 
 ## Interviewing for full-time jobs
 
