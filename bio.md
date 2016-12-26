@@ -141,8 +141,6 @@ When I didn't have work to do I messed around with various programmy things:
 * Second semester
   * Part 2 of the basic Java course, covering more advanced topics like inheritance, polymorphism, interfaces, etc.
 
-TODO I can't remember which CS theory courses I took at the time. Look these up.
-
 In my spare time I learned:
 
 * Django and used it to build some toy apps for myself
