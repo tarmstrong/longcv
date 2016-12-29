@@ -334,8 +334,11 @@ Fall 2012
     * e.g., SLAs on uptime
 * SOEN 422: embedded systems/software
   * Using low-level operating systems knowledge and some electrical engineering knowledge to build robots and such.
-  * For fun, on the side, I built [interactive documentation](http://tavisharmstrong.com/timer1) for the Teensy's 16bit timer.
+  * For fun, on the side, I built [interactive documentation](http://tavisharmstrong.com/timer1) for the Teensy's 16bit timer. I used Bret Victor's wonderful Tangle.js library for this, inspired by the example of an analogue circuit in the documentation for that library.
   * Spent a lot of time writing embedded C code to make motors go.
+  * The final project was to put a BeagleBone (a Raspberry Pi-esque computer) on a drone and program it to do something. The drones were very overpowered, however, and no one was able to get them to work in the mechanical engineering department's lab (let alone work at all). My team did succeed in making the rotors turn in response to a green flag being waved in front of a usb webcam we duct-taped to the top of the drone chassis. It just didn't go in quite the right direction.
+    * We used a Python library (TODO what was it called?) to interact with the BeagleBone's digital-out pins, which we wired to the drone's control board.
+    * We also used pycv (TODO what is this library actually called?) to process the images from the USB webcam.
 * SOEN 423: distributed systems
   * Concurrency control (locking, etc.)
   * Distributed clock systems (e.g., Lamport clocks)
@@ -350,9 +353,12 @@ Winter 2013
 * SOEN 345: s.w. testing, verif & qa
   * Unit testing, integration testing, load testing, etc.
 * SOEN 357: user interface design
+  * Learned some of the vocabulary and concepts of UI design: the Nielsen principles, affordability, etc.
+  * Learned to conduct user tests
 * SOEN 390: software engr. team project
   * We formed groups of 8-10 and ran a software project to replace a food bank's computer system.
   * We used the (somewhat overwrought) software development process that had been taught to us: we wrote long requirements documents after meeting with the "customer"; we documented our design thoroughly with UML before beginning implementation; we wrote our code; we documented our testing process and used measurement techniques (like McCabe Cyclometic Complexity, dubiously); we got approval from the "customer" at the end; documented maintenance plans.
+  * I believe the implementation we arrived at used Java servlets, so I must have spent some time writing Java code and JUnit tests.
 
 Summer 2013
 * ENGR 301: engr.mgmt.princip.+economics
@@ -442,7 +448,7 @@ Here are some things I learned over the course of this project with my teammates
 * How to set up travis-ci for a small team
 * How diffing and merging algorithms work, in order to write a module to do structured diffing on hierarchical data.
   * We looked up the original Hunt and McIllroy paper to figure out how to implement this
-  * (Actually, we didn't look up prior art for merging, we just took the diffs between base/HEAD and base/branch and diffed those, like a second-order diff. I don't know if that's how merging algorithms worked.)
+  * (Actually, we didn't look up prior art for merging, we just took the diffs between base/HEAD and base/branch and diffed those, like a second-order diff. I don't know if that's how merging algorithms work in practice.)
 * Yes, even some skills related to documenting a Python project with UML. There are challenges: the tools for making diagrams are clunky, don't have support for version control, and are hard to keep up to date with your changing project. That said, I think there are some benefits to high-level diagrams of your project's architecture and thought it was an interesting [AOSA](http://aosabook.org/en/index.html)-style exercize in communication.
 * I was the "team-leader" for the project. While the entire team contributed equal amounts of work, I had much more experience with Python and especially with open source practises, so I had a heavier hand when it came to design and code review. This was basically the first experience I had with a typical code review process outside of small interactions with the open source community.
 * I got a lot more practise writing tests.
