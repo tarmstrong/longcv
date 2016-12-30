@@ -381,7 +381,7 @@ I've never really written out what it takes to edit a book like that. Roughly sp
 * Deploy your copyeditors! Build a style guide for people to apply consistently. (Do you capitalize "Web"? What kind of words are typset as code? Which are capitalized? Do you use sentence case or title case for second-level headers?)
 * Typeset!
 
-The end result was [The Performance of Open Source Applications](http://aosabook.com/en/index.html). What did I learn from this experience?
+The end result was [The Performance of Open Source Applications](http://aosabook.org/en/index.html). What did I learn from this experience?
 
 Thankfully, you'll notice that the hardest part is done by the authors (actually writing the damn thing). For me, there were a few challenging aspects of this project. First, it took about a year, which was, at the time, the longest running project of any kind I had ever worked on. Second, I had to give feedback on technical writing in domains that I knew very little about to people that were way more experienced than me. This was intimidating, but thankfully got a lot easier once I learned how wonderful all the authors I was working with were.
 
