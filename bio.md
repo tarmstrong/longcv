@@ -469,3 +469,4 @@ There is now a successor to this project called [nbdime](http://nbdime.readthedo
 * safely making changes to a production system
 * mentorship
 * growing engineering team
+* [testing](https://blog.nelhage.com/2016/12/how-i-test/)
