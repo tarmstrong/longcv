@@ -401,7 +401,7 @@ I did learn quite a bit from this experience, though:
 * I wrote _a lot_ of SQL queries. Specifically I learned about:
   * `with`, `group by`, sql functions, the `psql` command line tools.
   * I experimented with but discarded sql stored procedures written in Python.
-* I used R for statistcal analysis and learned about
+* I used R for statistical analysis and learned about
   * I learned about different correlation tests (like Pearson and Spearman)
   * How to understand distributions in a dataset
     * with violin plots and box plots
